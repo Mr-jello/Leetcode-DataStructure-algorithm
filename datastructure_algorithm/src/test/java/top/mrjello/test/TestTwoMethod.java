@@ -2,6 +2,7 @@ package top.mrjello.test;
 
 import org.junit.Test;
 import top.mrjello.algorithm.d1_sort.Code03_InsertionSort;
+import top.mrjello.algorithm.d1_sort.Code05_QuickSort;
 import top.mrjello.utils.GenAndCopyRandomArray;
 import top.mrjello.utils.CompareAndEqual;
 
@@ -11,8 +12,6 @@ import top.mrjello.utils.CompareAndEqual;
  * @date 2023/7/6 21:59
  */
 public class TestTwoMethod {
-
-
 
     @Test
     public void testTwoMethod(){
@@ -34,5 +33,15 @@ public class TestTwoMethod {
             }
         }
         System.out.println(succeed ? "Work!" : "Error!");
+    }
+
+
+    @Test
+    public void testQuickSort(){
+        int[] arr = {1, 3, 2, 4, 5, 6, 7, 8, 9, 10};
+        Code05_QuickSort.quickSort(arr);
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
     }
 }

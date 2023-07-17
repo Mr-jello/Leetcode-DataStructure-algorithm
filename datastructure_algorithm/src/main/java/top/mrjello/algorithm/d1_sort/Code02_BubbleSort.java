@@ -13,7 +13,10 @@ public class Code02_BubbleSort {
      * @param arr unsorted array
      * time complexity: O(N^2), best case: O(N)
      * space complexity: O(1)
-     * 流程：0到1位置上，谁大谁往后挪，1到2位置上，谁大谁往后挪，以此类推
+     * stable: yes
+     * 流程：1. 0到1位置上，谁大谁往后挪，1到2位置上，谁大谁往后挪，以此类推确定最大值排到最后 0 - N-1
+     *      2. 0到1位置上，谁大谁往后挪，1到2位置上，谁大谁往后挪，以此类推确定第二大值排到倒数第二个位置 0 - N-2
+     *
      */
 
     public static void bubbleSort(int[] arr){

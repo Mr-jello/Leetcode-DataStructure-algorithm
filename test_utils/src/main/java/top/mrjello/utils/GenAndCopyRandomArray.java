@@ -1,5 +1,9 @@
 package top.mrjello.utils;
 
+import org.junit.Test;
+
+import java.util.Arrays;
+
 /**
  * @author jason@mrjello.top
  * @date 2023/7/6 20:19
@@ -33,4 +37,5 @@ public class GenAndCopyRandomArray {
         }
         return copyArr;
     }
+
 }

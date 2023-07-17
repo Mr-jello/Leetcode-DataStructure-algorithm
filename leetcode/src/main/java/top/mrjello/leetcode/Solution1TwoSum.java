@@ -1,4 +1,5 @@
-package top.mrjello.leetcode;/*
+package top.mrjello.leetcode;
+/*
  * @lc app=leetcode id=1 lang=java
  *
  * [1] Two Sum

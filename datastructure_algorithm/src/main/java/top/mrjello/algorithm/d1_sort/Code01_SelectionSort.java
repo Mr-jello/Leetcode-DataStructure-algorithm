@@ -11,6 +11,8 @@ public class Code01_SelectionSort {
      * @param arr unsorted array
      * Time complexity: O(N^2), best case: O(N)
      * Space complexity: O(1)
+     * Stable: No
+     * 稳定性：指的是排序后，相同元素的相对位置不变
      * 流程：现在0-N-1上找最小值，放到0位置上，再在1-N-1上找最小值，放到1位置上，以此类推
      */
     public static void selectionSort(int[] arr){

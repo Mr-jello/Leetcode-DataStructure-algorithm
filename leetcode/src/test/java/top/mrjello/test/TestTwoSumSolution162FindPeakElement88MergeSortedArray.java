@@ -10,7 +10,7 @@ import java.util.Arrays;
  * @author jason@mrjello.top
  * @date 2023/7/7 1:06
  */
-public class TestTwoSumSolution162FindPeakElement {
+public class TestTwoSumSolution162FindPeakElement88MergeSortedArray {
 
     @Test
     public void testTwoMethod(){

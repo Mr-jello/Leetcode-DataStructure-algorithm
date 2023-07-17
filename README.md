@@ -1,5 +1,5 @@
-# LeetCode Algorithm
-## Easy
+# LeetCode
+### Easy
 1.[Two Sum](leetcode/src/main/java/top/mrjello/leetcode/Solution1TwoSum.java)
 
 7.[Balanced Binary Tree](leetcode/src/main/java/top/mrjello/leetcode/Solution110BalancedBinaryTree.java)
@@ -8,8 +8,12 @@
 
 11.[Single Number](leetcode/src/main/java/top/mrjello/leetcode/Solution136SingleNumber.java)
 
+15.[Merge Sorted Array](leetcode/src/main/java/top/mrjello/leetcode/Solution88MergeSortedArray.java)
+
+16.[Reverse LinkedList](leetcode/src/main/java/top/mrjello/leetcode/Solution206ReverseLinkedList.java)
+
 ---
-## Medium
+### Medium
 2.[Add Two Numbers](leetcode/src/main/java/top/mrjello/leetcode/Solution2AddTwoNumbers.java)
 
 3.[Longest Substring Without Repeating Characters](leetcode/src/main/java/top/mrjello/leetcode/Solution3LongestSubstringWithoutRepeatingCharacters.java)
@@ -27,25 +31,46 @@
 14.[Find Peak Element](leetcode/src/main/java/top/mrjello/leetcode/Solution162FindPeakElement.java)
 
 ---
-## Hard
+### Hard
 4.[Median of Two Sorted Arrays](leetcode/src/main/java/top/mrjello/leetcode/Solution4MedianOfTwoSortedArrays.java)
 
 9.[Reverse Pairs](leetcode/src/main/java/top/mrjello/leetcode/Solution493ReversePairs.java)
 
 ---
 
-# Data Structure And Algorithm
-## Sort
+# Data Structure & Algorithm
+### Sort
 1.[Selection Sort](datastructure_algorithm/src/main/java/top/mrjello/algorithm/d1_sort/Code01_SelectionSort.java)
 
 2.[Bubble Sort](datastructure_algorithm/src/main/java/top/mrjello/algorithm/d1_sort/Code02_BubbleSort.java)
 
 3.[Insertion Sort](datastructure_algorithm/src/main/java/top/mrjello/algorithm/d1_sort/Code03_InsertionSort.java)
 
+4.[Merge Sort](datastructure_algorithm/src/main/java/top/mrjello/algorithm/d1_sort/Code04_MergeSort.java)
+
+5.[Quick Sort](datastructure_algorithm/src/main/java/top/mrjello/algorithm/d1_sort/Code05_QuickSort.java)
+
+6.[Heap Sort](datastructure_algorithm/src/main/java/top/mrjello/algorithm/d1_sort/Code06_HeapSort.java)
+
+7.[Radix Sort](datastructure_algorithm/src/main/java/top/mrjello/algorithm/d1_sort/Code07_RadixSort.java)
+
 ---
-## LinkedList
+### LinkedList
+1.[Reverse LinkedList](datastructure_algorithm/src/main/java/top/mrjello/algorithm/d2_LinkedList/ReverseList.java)
 
+2.[Common Part Of LinkedList](datastructure_algorithm/src/main/java/top/mrjello/algorithm/d2_LinkedList/CommonPartOfTwoLinkedList.java)
+
+3.[Palindrome List](datastructure_algorithm/src/main/java/top/mrjello/algorithm/d2_LinkedList/PalindromeList.java)
 
 ---
-## BinaryTree
+### BinaryTree
 
+---
+### Algorithm
+1.[Binary Search](datastructure_algorithm/src/main/java/top/mrjello/data_structure/Binary_Search.java)
+
+2.[Recursion Get Max](datastructure_algorithm/src/main/java/top/mrjello/data_structure/Recursion_GetMaxOfArray.java)
+
+3.[Small Sum](datastructure_algorithm/src/main/java/top/mrjello/data_structure/SmallSum.java)
+
+4.[Sorted Array Distance Less K](datastructure_algorithm/src/main/java/top/mrjello/data_structure/SortedArrayDistanceLessK.java)
