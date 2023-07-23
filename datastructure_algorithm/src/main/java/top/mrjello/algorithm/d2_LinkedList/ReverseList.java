@@ -1,6 +1,7 @@
 package top.mrjello.algorithm.d2_LinkedList;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 import top.mrjello.utils.GenAndCopyRandomArray;
 
 /**

@@ -1,6 +1,7 @@
 package top.mrjello.algorithm.d1_sort;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * @author jason@mrjello.top

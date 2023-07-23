@@ -104,8 +104,9 @@ public class Solution98ValidateBinarySearchTree {
         if (
                 (leftData != null ? (leftData.isBST && leftData.max < x.val) : true)
                         &&
-                        (rightData != null ? (rightData.isBST && rightData.min > x.val) : true)
-        ){
+                (rightData != null ? (rightData.isBST && rightData.min > x.val) : true)
+        )
+        {
             isBST = true;
         }
         return new ReturnData(isBST, min, max);
