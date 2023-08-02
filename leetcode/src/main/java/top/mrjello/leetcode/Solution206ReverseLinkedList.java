@@ -1,6 +1,5 @@
 package top.mrjello.leetcode;
 
-import org.junit.Test;
 
 /**
 Given the head of a singly linked list, reverse the list, and return the
