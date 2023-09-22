@@ -28,3 +28,7 @@ u
 Etest_utils/src/main/java/top/mrjello/utils/GenAndCopyRandomArray.java,c/4/c40b435a0c2b25eeaee3ef932693e8d30a49b6f3
 y
 Idatastructure_algorithm/src/main/java/top/mrjello/data_structure/Bag.java,d/d/ddbeea74c6f358478dc8d8a382e273126646d297
+—
+gdatastructure_algorithm/src/main/java/top/mrjello/algorithm/d2_LinkedList/CopyLinkedListWithRandom.java,4/a/4a2a1acc0ce9dca809ddaa3233d6e891e8bcb4fa
+}
+Mdatastructure_algorithm/src/main/java/top/mrjello/data_structure/BagMain.java,a/9/a9b0e84c12d1cce9587f22a888ea74bf0137d80c

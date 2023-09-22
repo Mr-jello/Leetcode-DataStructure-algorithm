@@ -32,6 +32,68 @@ public class Binary_Search {
         }
     }
 
+    /**
+     * Given a sorted array containing duplicates, count the number of occurrences of a given element.
+     * For this assignment, we will use a list of integers. Please see the example below
+     * @param arr sorted arr
+     * @param target count how many elements in array
+     */
+    public static int findFirstIndex(int[] arr, int target) {
+        int left = 0;
+        int right = arr.length - 1;
+        int firstIndex = -1;
+        while ( left <= right ) {
+            int mid = (left + right ) / 2;
+            if (arr[mid] == target) {
+                firstIndex = mid;
+                right = mid - 1;
+            } else if (arr[mid] > target) {
+                right = mid - 1;
+            } else if (arr[mid] < target) {
+                left = mid + 1;
+            }
+        }
+        return firstIndex;
+    }
+
+    public static int findLastIndex(int[] arr, int target) {
+        int left = 0;
+        int right = arr.length - 1;
+        int lastIndex = -1;
+        while ( left <= right ) {
+            int mid = (left + right ) / 2;
+            if (arr[mid] == target) {
+                lastIndex = mid;
+                left = mid + 1;
+            } else if (arr[mid] > target) {
+                right = mid - 1;
+            } else if (arr[mid] < target) {
+                left = mid + 1;
+            }
+        }
+        return lastIndex;
+    }
+
+    public static int countElements(int[] arr, int target) {
+        if (arr == null) {
+            return 0;
+        }
+        int firstIndex = findFirstIndex(arr, target);
+        int lastIndex =  findLastIndex(arr, target);
+        if (firstIndex == -1 || lastIndex == -1) {
+            return 0;
+        }
+        return lastIndex - firstIndex + 1;
+    }
+
+    /**
+     * Assume a “Rotated Sorted Array.” Please see an example below.
+     * Return the index of the integer when it is found or -1 if it does not exist. This list will NOT have duplicates.
+     * A rotated sorted array is an array that has a sorted list at first then it breaks and has another sorted list.
+     * @param
+     * @return the index of first peak element
+     */
+
 
 
     public int findPeakElement(int[] nums) {
