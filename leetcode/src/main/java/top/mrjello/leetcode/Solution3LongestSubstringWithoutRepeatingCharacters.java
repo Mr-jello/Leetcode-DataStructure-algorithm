@@ -59,20 +59,21 @@ import java.util.Map;
 // @lc code=start
 public class Solution3LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
-        int max = 0;
+        if (s.length() < 2) {
+            return s.length();
+        }
         Map<Character, Integer> map = new HashMap<Character, Integer>();
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i; j < s.length(); j++) {
-                char c = s.charAt(j);
-                if (map.containsKey(c)) {
-                    i = map.get(c);
-                    map.clear();
-                    break;
-                } else {
-                    map.put(c, j);
-                    max = Math.max(max, map.size());
-                }
+        int left = 0;
+        int right = 0;
+        int max = 0;
+        while (right < s.length()) {
+            char r = s.charAt(right);
+            if (map.containsKey(r)) {
+                left = Math.max(left, map.get(r) + 1);
             }
+            map.put(r, right);
+            max = Math.max(max, right - left + 1);
+            right++;
         }
         return max;
     }

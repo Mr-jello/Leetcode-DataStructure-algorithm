@@ -173,7 +173,7 @@
 
 2.[Copy Array](test_utils/src/main/java/top/mrjello/utils/GenAndCopyRandomArray.java)
 
-3.[Compare Two Array Is Equal](test_utils/src/main/java/top/mrjello/utils/GenAndCopyRandomArray.java)
+3.[Compare Two Arrays Is Equal](test_utils/src/main/java/top/mrjello/utils/GenAndCopyRandomArray.java)
 
 4.[Generate NodeList(LinkedList)](test_utils/src/main/java/top/mrjello/utils/GenAndCopyRandomArray.java)
 

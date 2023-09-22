@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author jason@mrjello.top
  * @date 2023/7/5 20:59
  */
-public class Code01_SelectionSort {
+public class  Code01_SelectionSort {
 
     /**
      * SelectionSort
